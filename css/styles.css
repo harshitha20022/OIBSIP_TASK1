@@ -1,0 +1,106 @@
+body{
+    background-color:whitesmoke;
+}
+#show{
+    display:block;
+    position:relative;
+    width:100%;
+    top:0%;
+}
+
+
+#navbar{
+    background-color: #54c59e;
+    display: flex;
+    place-content: space-evenly;
+    top: 0; 
+    width: 100%;
+    position:fixed;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.img-fluid{
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin-top: -6px;
+    align-self: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    align-self: center;
+  }
+  
+  /* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    align-self: center;
+  }
+  
+form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box {
+  width: 95%;
+  border: 2px solid rgb(196, 218, 196);
+  margin-left: 40px;
+  border-radius: 10px;
+  box-shadow: #636161;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+  #navbar{
+    background-color: #54c59e;
+    display: flex;
+    place-content: space-evenly;
+}
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+}
